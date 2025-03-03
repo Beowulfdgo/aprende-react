@@ -1,0 +1,33 @@
+article {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: .8rem;
+  gap: 1rem;
+}
+article header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+article header div{
+    display: flex;
+    flex-direction: column;
+}
+article header span{
+ opacity: .6
+}
+article img{
+    border-radius: 1000px;
+    width: 48px;
+    height: 48px;
+}   
+article button{
+    border: 0;
+    margin-left: 16px;
+    padding: 6px 16px;
+    font-weight: bold;
+    border-radius: 999px;
+   
+}
+
