@@ -1,28 +1,28 @@
-article {
+.tw-followCard {
   display: flex;
   align-items: center;
   color: #fff;
   font-size: .8rem;
   gap: 1rem;
 }
-article header {
+.tw-followCard-header {
   display: flex;
   align-items: center;
   gap: 4px;
 }
-article header div{
+.tw-followCard-info {
     display: flex;
     flex-direction: column;
 }
-article header span{
+.tw-followCard-infoUserName span{
  opacity: .6
 }
-article img{
+.tw-followCard-avatar{
     border-radius: 1000px;
     width: 48px;
     height: 48px;
 }   
-article button{
+.tw-followCard-button{
     border: 0;
     margin-left: 16px;
     padding: 6px 16px;
