@@ -4,9 +4,11 @@ import { TwitterFollowCard } from './TwitterFollowCard';
 
 function App() {
   return (
-
-      <TwitterFollowCard userName="kikobeats" name="Kikobeats" />
-
+    <section>
+      <TwitterFollowCard  userName="kikobeats" name="Kikobeats" />
+      <TwitterFollowCard userName="midudev" name="Miguel D" />
+      <TwitterFollowCard userName="vxnder" name="Vander Hart" />
+    </section>
   );
 }
 

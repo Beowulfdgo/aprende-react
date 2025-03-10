@@ -3,7 +3,7 @@
   align-items: center;
   color: #fff;
   font-size: .8rem;
-  gap: 1rem;
+  justify-content: space-between;
 }
 .tw-followCard-header {
   display: flex;
