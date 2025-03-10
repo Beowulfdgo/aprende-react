@@ -1,4 +1,4 @@
-export function TwitterFollowCard ({userName,name,isFollowing}) {
+export function TwitterFollowCard ({children,userName,isFollowing}) {
     return (
         <article className='tw-followCard'>
         <header className='tw-followCard-header'>
@@ -7,10 +7,11 @@ export function TwitterFollowCard ({userName,name,isFollowing}) {
          alt="el avatar de kikobeats" 
          src= {`https://unavatar.io/x/${userName}`} />
          <div className='tw-followCard-info'>
-          <strong>{name} </strong>
+          <strong>  {children} </strong>
            <span 
             className='tw-followCard-infoUserName'>@{userName}        
            </span>
+         
            </div>
         </header>
         <aside>

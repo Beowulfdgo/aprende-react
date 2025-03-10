@@ -6,9 +6,9 @@ function App() {
   return (
     <section className='App'>
       <TwitterFollowCard  isFollowing={true} userName="kikobeats" > 
-        kiko Beats</TwitterFollowCard>  
+       <h1>kiko Beats</h1> </TwitterFollowCard>  
       <TwitterFollowCard   isFollowing={false}  userName="midudev" >
-        Miguel D esta es una prueba </TwitterFollowCard> 
+       <h1>Miguel D esta es una prueba</h1>  </TwitterFollowCard> 
     </section>
   );
 }
