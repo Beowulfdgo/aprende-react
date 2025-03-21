@@ -12,11 +12,10 @@ export function TwitterFollowCard ({children,userName,isFollowing}) {
            <span 
             className='tw-followCard-infoUserName'>@{userName}          
            </span>
-         
            </div>
         </header>
         <aside>
-          <button className='tw-followCard-button'>Seguir</button>
+          <button className='tw-followCard-button'>{text}</button>
         </aside>
       </article>
     )
